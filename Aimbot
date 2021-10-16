@@ -11,7 +11,7 @@ local settings = {
     Aimbot_AimPart = "Head",
     Aimbot_TeamCheck = true,
     Aimbot_Draw_FOV = false,
-    Aimbot_FOV_Radius = 200,
+    Aimbot_FOV_Radius = 300,
     Aimbot_FOV_Color = Color3.fromRGB(255,255,255)
 }
 
@@ -19,7 +19,7 @@ local fovcircle = Drawing.new("Circle")
 fovcircle.Visible = settings.Aimbot_Draw_FOV
 fovcircle.Radius = settings.Aimbot_FOV_Radius
 fovcircle.Color = settings.Aimbot_FOV_Color
-fovcircle.Thickness = 1
+fovcircle.Thickness = 0
 fovcircle.Filled = false
 fovcircle.Transparency = 1
 
